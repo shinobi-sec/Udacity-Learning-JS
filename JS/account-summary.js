@@ -13,6 +13,12 @@ var savingsAccount = {
         }
     },
     printAccountSummary: () => {
-        return 'Welcome!\\nYour balance is currently $' + savingsAccount.balance + ' and your interest rate is ' + savingsAccount.interestRatePercent + '%.'
+        return "Welcome!\nYour balance is currently $" + savingsAccount.balance + ' and your interest rate is ' + savingsAccount.interestRatePercent + '%.'
     }
 };
+
+/* \n can be used to continue a statement in the new line
+
+but "" must be used instead of '' while using the \n 
+
+*/
