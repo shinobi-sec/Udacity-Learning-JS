@@ -4,6 +4,7 @@ var totals = bills.map((element) => {
     element *= 1.15;
     element = element.toFixed(2);
     element = Number(element);
+    return element
 });
 
 console.log(totals);
