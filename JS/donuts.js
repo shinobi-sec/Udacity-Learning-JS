@@ -24,11 +24,15 @@ donuts.forEach((element) => {
 })
 
 
-/* Understanding forEach Array
+// forEach Array Definition
 
+``
+`
 array.forEach(callback(item, index, array))
+`
+``
 
-
+/*
 const albums = [{ title: 'title1',id: 1}, {title: 'title2',id: 2},{title: 'title3',id: 3}]
 
 var idToFind = 2;
